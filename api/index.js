@@ -6,6 +6,6 @@ module.exports = (req,res) => {
         .toString(36)
         .replace(".", "");
     const moreRandomStr = sha256(randomStr);
-    const ultraRandomStr = argon2.hash(moreRandomStr) //.replace("."," ");
+    const ultraRandomStr = argon2.hash(moreRandomStr); //.replace("."," ");
     res.send(`${ultraRandomStr}`);
 };
