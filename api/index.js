@@ -6,6 +6,6 @@ module.exports = (req,res) => {
         .toString(36)
         .replace(".", "");
     const moreRandomStr = sha256(randomStr);
-    const ultraRandomStr = sha512(moreRandomStr).replace(".","");
+    const ultraRandomStr = sha512(moreRandomStr).replace("."," ");
     res.send(`${ultraRandomStr}`);
 };
