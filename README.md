@@ -1,3 +1,7 @@
-# pinecone
+# based64
+encode and decode base64 strings fast
 
-really random strings with cool serverless function
+
+TODO
+- [x] migrate to typescript
+- [ ] save encrypted text to a db (redis or sqlite)
