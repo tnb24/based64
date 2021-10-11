@@ -1,14 +1,17 @@
 {
-  "name": "pinecone",
+  "name": "pinekone",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "node api/index.js",
+    "test": "vercel dev",
     "lint": "eslint --fix ."
   },
   "devDependencies": {
     "eslint": "^7.32.0",
     "vercel": "^23.1.2"
+  },
+  "dependencies": {
+    "js-base64": "^3.7.2"
   }
 }
