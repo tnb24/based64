@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "https://github.com/tnb24/pinecone"
+      "destination": "https://github.com/tnb24/based64"
     }
   ]
 }
