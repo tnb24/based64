@@ -12,7 +12,9 @@
     "openpgp": "^5.0.0"
   },
   "devDependencies": {
+    "@types/hex2dec": "^1.1.2",
     "@vercel/node": "^1.12.1",
+    "hex2dec": "^1.1.2",
     "prettier": "^2.4.1",
     "ts-node": "^10.3.0",
     "tsc": "^2.0.3",

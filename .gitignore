@@ -1,3 +1,4 @@
 node_modules
 .vercel
 argon2.test.js
+yarn-error.log
