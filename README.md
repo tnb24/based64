@@ -1,3 +1,3 @@
-# based64
+# ctf-utils
 
-simple serverless function written in typescript to encode and decode base64 strings
+handy functions
